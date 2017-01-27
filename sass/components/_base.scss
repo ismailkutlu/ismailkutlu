@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,900');
+
+body {
+    font: 1em/2em 'Lato', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;    
+}
+p {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 2em;
+}
+a {
+    color: $black;
+}
+a:focus {
+    text-decoration: none;
+}
+a:hover {
+        text-decoration: none;
+        color: $gold !important;
+}
+
+h2 xmp {
+    margin: 0;
+    font-family: inherit;
+    white-space: inherit;
+}
+.overlay {
+    background-image: url('../overlay.png');
+    background-color: rgba(0, 0, 0, 0.36);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    }
+div.section {
+    width: 100%;
+    height: 100vh !important;
+    overflow: hidden;
+}
+nav {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 22;
+}
+nav .logo {
+    position: absolute;
+    margin: 15px 0 15px 40%;
+    font-size: 3em;
+    opacity: 0;
+}
+nav .logo span.black {
+    font-weight: 900;
+    color: goldenrod;
+}
+nav ul {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    float: right;
+    top: 15px;
+    /*right: -15px;*/
+}
+nav ul a {
+    float: left;
+    text-align: center;
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 1.5em;
+    opacity: 0.7;
+}
+nav ul a:hover {
+    border-bottom: 3px solid $gold;
+    opacity: 0.9;
+    -webkit-transition: all 256ms ease-in-out 0s;
+    -o-transition: all 256ms ease-in-out 0s;
+    transition: all 256ms ease-in-out 0s;
+}
+.blikvanger {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url('../forest.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+}
+.home h1 {
+    position: absolute;
+    font-weight: 900;
+    color: $white;
+    z-index: 21;
+    width: 100%;
+    text-align: center;
+    font-size: 7vw;
+    margin: 0;
+}
+.home h2 {
+    position: absolute;
+    color: goldenrod;
+    z-index: 21;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+    margin: 1vh 0 0 0;
+}
+.fa-sm{
+    font-size: 0.8em;
+    color: #daa520;    
+}
+.rect {
+    text-align: center;
+    position: absolute;
+    display: inline-block;   
+    top: 40vh;
+    z-index: 20;
+}
+/*scroll-down*/
+.scroll-down {
+	position: absolute;
+	left: 50%;
+	bottom: 5vh;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	width: 13px;
+	height: 13px;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	z-index: 9;
+	-webkit-transform: translate(-50%, 0%) rotate(45deg);
+	-moz-transform: translate(-50%, 0%) rotate(45deg);
+	transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fadeMoveDown 2s ease-in-out infinite;
+	-moz-animation: fadeMoveDown 2s ease-in-out infinite;
+	animation: fadeMoveDown 2s ease-in-out infinite;
+    z-index: 22;
+}
