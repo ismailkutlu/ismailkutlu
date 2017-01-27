@@ -147,3 +147,11 @@ nav ul a:hover {
 	animation: fadeMoveDown 2s ease-in-out infinite;
     z-index: 22;
 }
+
+.container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 600px;
+}
