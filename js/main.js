@@ -12,11 +12,14 @@ $(document).ready(function() {
     
     $(window).scroll(function() {    
         if ($(this).scrollTop() >= screen.height/2) {
+            $('.icon-1, .icon-2, .icon-3').css({
+                "background-color": "#000"
+            })
             $('.logo').fadeIn().css({"opacity": "1"})
             $('nav').css({  "background-color": "rgba(255, 255, 255, 0.85)", 
                             "box-shadow": "0px 0px 4px 4px rgba(0, 0, 0, 0.15)"
             })
-            $('nav ul a li').css({"color": "goldenrod"})
+            $('nav ul a li').css({"color": "#000"})
             $('nav ul a li:hover').css({})
             $(  '.hamburger-icon:hover .icon-1',
                 '.hamburger-icon:hover .icon-2',
@@ -24,6 +27,9 @@ $(document).ready(function() {
                     "background-color": "#FFF"
             })
         } else {
+            $('.icon-1, .icon-2, .icon-3').css({
+                "background-color": "#FFF"
+            })
             $('.logo').fadeOut().css({"opacity": "0"});
             $('nav').css({  "background-color": "transparent", 
                             "box-shadow": "0px 0px 4px 4px rgba(0, 0, 0, 0)"
@@ -62,12 +68,16 @@ $(document).ready(function() {
     var icon2 = document.getElementById("b");
     var icon3 = document.getElementById("c");
     var nav = document.getElementById('nav__list');
+    // var nav = document.getElementById('nav');
+    var blue = document.getElementById("blue");
 
     icon.addEventListener('click', function() {
         icon1.classList.toggle('a');
         icon2.classList.toggle('c');
         icon3.classList.toggle('b');
         nav.classList.toggle('show');
+        blue.classList.toggle('slide');
+        
         $('nav ul').toggleClass('left');
     });
 
@@ -81,11 +91,24 @@ $(document).ready(function() {
             $('nav ul a').css({
                 "width": "100%",
             })
+            $('#nav__list').css({                
+                "opacity": 0
+            })
+            $('.dark-blue').css({
+                "background-color": "#0288D1",
+            })
+        //BIGGER THAN 960px
         } else {
             $('.fa-sm').hide();    
             $('.hamburger-icon').hide();
+            $('.dark-blue').css({
+                "background-color": "transparent",
+            })
             $('nav ul a').css({
-                "width": "10vw",
+                "width": "120px",
+            })
+            $('#nav__list').css({                
+                "opacity": 1
             })
         }
     }

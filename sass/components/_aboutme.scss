@@ -1,0 +1,49 @@
+#about {
+    vertical-align: middle;
+}
+h3 {
+    margin: 0 auto;
+    color: $gray;
+    border-bottom: 1px solid $gray;
+}
+#about p {
+    line-height: 3em;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+ul#facts {
+    line-height: 3em;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+blockquote {
+    position: relative;
+    color: $gold !important;
+    text-align: center;
+    border: 1px solid $gold !important;
+    padding: 20px 40px !important;
+    margin: 0 auto !important;
+    font-style: italic;
+}
+blockquote:hover {
+    color: $white !important;
+    background-color: $gold;
+    transition: $transition;
+}
+blockquote::before {
+    font-family: Arial, Helvetica, sans-serif;
+    content: '“';
+    font-size: 10em;
+    position: absolute;    
+    font-style: normal;
+}
+blockquote::after {
+    font-family: Arial, Helvetica, sans-serif;
+    content: '”';
+    font-size: 10em;
+    position: absolute;
+    font-style: normal;
+}
