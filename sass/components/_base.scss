@@ -150,12 +150,7 @@ nav ul a:hover {
 	animation: fadeMoveDown 2s ease-in-out infinite;
     z-index: 22;
 }
-<<<<<<< HEAD
-.scroll-down:nth-of-type(1),
-.scroll-down:nth-of-type(2) {
-    border-bottom: 2px solid $black;
-	border-right: 2px solid $black;
-}
+
 .u-c {
     width: 50%;
     margin: 0 25%;
@@ -166,7 +161,7 @@ footer {
     font-size: 1em;
     text-align: center;
     padding: 10px 0;
-=======
+}
 
 .container img {
     display: block;
@@ -174,8 +169,9 @@ footer {
     margin-right: auto;
     width: 100%;
     max-width: 250px;
->>>>>>> origin/master
 }
+
 footer a {
     color: $gold;
+    font-size: 2em;
 }
