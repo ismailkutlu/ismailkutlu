@@ -354,7 +354,6 @@ blockquote::after {
   top: -3em;
   left: 2%;
   position: relative;
-  font-size: 1.5em;
   line-height: 3em;
   color: #FFF; }
   #skills span em {
@@ -364,7 +363,6 @@ blockquote::after {
 progress {
   background-color: #f3f3f3;
   border: 0;
-  height: 4em;
   width: 100%; }
 
 progress::-webkit-progress-bar {
@@ -418,9 +416,17 @@ progress::-moz-progress-bar {
   #index h1 {
     top: 5.5vh; }
   #index h2 {
-    top: 62vh; } }
+    top: 62vh; }
+  #skills span {
+    font-size: 1em; }
+  progress {
+    height: 2em; } }
 
 @media only screen and (min-width: 960px) {
+  #skills span {
+    font-size: 1.5em; }
+  progress {
+    height: 3em; }
   nav ul {
     position: absolute;
     margin-top: 0;

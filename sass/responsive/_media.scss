@@ -55,21 +55,22 @@
     #index h2 {
         top: 62vh;
     }
+    #skills span {
+        font-size: 1em;
+    }
+    progress {        
+        height: 2em;
+    }
 
 }
 
 @media only screen and (min-width: 960px) {    
-    // .skill-wrap {
-    //     width: 45%;
-    //     margin: 0 2.5%;
-    // }
-    // progress {
-    //     height: 4em;
-    // }
-    // #skills span {
-    //     top: 10px;
-    //     font-size: 1em;
-    // }
+    #skills span {
+        font-size: 1.5em;
+    }
+    progress {        
+        height: 3em;
+    }
     nav ul {
         position: absolute;
         margin-top: 0;
