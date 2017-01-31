@@ -115,8 +115,7 @@ nav ul a:hover {
   z-index: 20;
   width: 100%;
   text-align: center;
-  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
-  margin: 1vh 0 0 0; }
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75); }
 
 .fa-sm {
   font-size: 0.8em;
@@ -300,7 +299,7 @@ nav ul {
 #about {
   vertical-align: middle; }
 
-h3 {
+#about h3 {
   margin: 0 auto;
   color: #999;
   border-bottom: 1px solid #999; }
@@ -346,6 +345,37 @@ blockquote::after {
   position: absolute;
   font-style: normal; }
 
+.skill-wrap {
+  margin: 20px 2.5%;
+  float: left;
+  width: 45%; }
+
+#skills span {
+  top: -3em;
+  left: 2%;
+  position: relative;
+  font-size: 1.5em;
+  line-height: 3em;
+  color: #FFF; }
+  #skills span em {
+    font-size: 0.7em;
+    opacity: 0; }
+
+progress {
+  background-color: #f3f3f3;
+  border: 0;
+  height: 4em;
+  width: 100%; }
+
+progress::-webkit-progress-bar {
+  background-color: #F5F5F5; }
+
+progress::-webkit-progress-value {
+  background-color: #daa520; }
+
+progress::-moz-progress-bar {
+  background-color: lightgoldenrodyellow; }
+
 @media only screen and (min-width: 320px) {
   #index h1 {
     top: 3vh; }
@@ -364,7 +394,7 @@ blockquote::after {
   #contact h2 {
     font-size: 2em;
     font-weight: 900; }
-  h3 {
+  #about h3 {
     font-size: 1.5em;
     width: 90%; }
   #about p {
@@ -411,7 +441,7 @@ blockquote::after {
   #contact h2 {
     font-size: 5em;
     font-weight: 100; }
-  h3 {
+  #about h3 {
     font-size: 3em;
     width: 70%; }
   #about p {

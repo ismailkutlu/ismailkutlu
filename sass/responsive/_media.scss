@@ -22,7 +22,7 @@
         font-weight: 900;
     }
     //ABOUT
-    h3 {
+    #about h3 {
         font-size: 1.5em;
         width: 90%;
     }
@@ -54,11 +54,22 @@
     }
     #index h2 {
         top: 62vh;
-    }   
+    }
 
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 960px) {    
+    // .skill-wrap {
+    //     width: 45%;
+    //     margin: 0 2.5%;
+    // }
+    // progress {
+    //     height: 4em;
+    // }
+    // #skills span {
+    //     top: 10px;
+    //     font-size: 1em;
+    // }
     nav ul {
         position: absolute;
         margin-top: 0;
@@ -86,7 +97,7 @@
         font-weight: 100;
     }
     //ABOUT
-    h3 {
+    #about h3 {
         font-size: 3em;
         width: 70%;
     }
