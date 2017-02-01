@@ -302,20 +302,23 @@ nav ul {
 #about h3 {
   margin: 0 auto;
   color: #999;
-  border-bottom: 1px solid #999; }
+  border-bottom: 1px solid #999;
+  opacity: 0; }
 
 #about p {
   line-height: 3em;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 3vh; }
+  margin-bottom: 3vh;
+  opacity: 0; }
 
 ul#facts {
   line-height: 3em;
   list-style: none;
   margin: 0 auto;
   padding: 0;
-  text-align: center; }
+  text-align: center;
+  opacity: 0; }
 
 blockquote {
   position: relative;
@@ -324,7 +327,8 @@ blockquote {
   border: 1px solid #daa520 !important;
   padding: 20px 40px !important;
   margin: 0 auto !important;
-  font-style: italic; }
+  font-style: italic;
+  opacity: 0; }
 
 blockquote:hover {
   color: #FFF !important;
@@ -348,14 +352,16 @@ blockquote::after {
 .skill-wrap {
   margin: 20px 2.5%;
   float: left;
-  width: 45%; }
+  width: 45%;
+  opacity: 0; }
 
 #skills span {
   top: -3em;
   left: 2%;
   position: relative;
   line-height: 3em;
-  color: #FFF; }
+  color: #FFF;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.35); }
   #skills span em {
     font-size: 0.7em;
     opacity: 0; }
@@ -375,6 +381,10 @@ progress::-moz-progress-bar {
   background-color: lightgoldenrodyellow; }
 
 @media only screen and (min-width: 320px) {
+  #skills span {
+    font-size: 1em; }
+  progress {
+    height: 2em; }
   #index h1 {
     top: 3vh; }
   #index h2 {
@@ -416,11 +426,7 @@ progress::-moz-progress-bar {
   #index h1 {
     top: 5.5vh; }
   #index h2 {
-    top: 62vh; }
-  #skills span {
-    font-size: 1em; }
-  progress {
-    height: 2em; } }
+    top: 62vh; } }
 
 @media only screen and (min-width: 960px) {
   #skills span {

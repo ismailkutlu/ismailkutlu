@@ -1,4 +1,10 @@
 @media only screen and (min-width: 320px) {
+    #skills span {
+        font-size: 1em;
+    }
+    progress {        
+        height: 2em;
+    }
     #index h1 {
         top: 3vh;
     }
@@ -54,13 +60,7 @@
     }
     #index h2 {
         top: 62vh;
-    }
-    #skills span {
-        font-size: 1em;
-    }
-    progress {        
-        height: 2em;
-    }
+    }    
 
 }
 

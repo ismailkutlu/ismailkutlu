@@ -118,8 +118,14 @@ $(document).ready(function() {
     $(window).bind("resize", function(){
         imageresize();
     });
+    
+    var $skills = $('#skills h2');
+    var $about = $('#about h2');
 
-    $(function() {
+    $skills.waypoint(function () {
+        $('.skill-wrap').css({
+            opacity: 1
+        })
         $('progress').each(function() {
             var max = $(this).val();
             $(this).val(0).animate({
@@ -129,6 +135,15 @@ $(document).ready(function() {
         $('em').delay(1000).animate({
             opacity: 1,
         }, { duration: 2000})
-    });
+        waypoint.disable();
+    }, { offset: "50%"});
 
+    $about.waypoint(function () {
+        $('#about h3').animate({
+            "opacity": 1
+        })
+        $('#about p, #about ul, #about blockquote').animate({
+            "opacity": 1
+        }, 1000)
+    }, { offset: "50%"})
 }());
