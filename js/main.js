@@ -135,7 +135,9 @@ $(document).ready(function() {
         $('em').delay(1000).animate({
             opacity: 1,
         }, { duration: 2000})
-        waypoint.disable();
+        // waypoint.disable();
+        this.destroy();
+        
     }, { offset: "50%"});
 
     $about.waypoint(function () {
@@ -145,5 +147,6 @@ $(document).ready(function() {
         $('#about p, #about ul, #about blockquote').animate({
             "opacity": 1
         }, 1000)
+        this.destroy();
     }, { offset: "50%"})
 }());
