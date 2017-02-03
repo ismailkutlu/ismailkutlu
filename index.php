@@ -40,7 +40,7 @@
                     <div class="logo">ismail<span class="black">kutlu</span></div>
                 </a>
                     <ul id="nav__list">
-                        <a href="#about" class="nav__item smoothscroll"><li>About me</li></a>
+                        <a href="#about" class="nav__item smoothscroll"><li>About</li></a>
                         <a href="#skills" class="nav__item smoothscroll"><li>Skills</li></a>
                         <a href="#contact" class="nav__item smoothscroll"><li>Contact</li></a>
                     </ul>
@@ -83,11 +83,11 @@
 
                     <h3>Facts about me</h3>
                     <ul id="facts">
-                        <li>I'm dual citizen of Belgium and Turkey.
+                        <li>I'm dual citizen of Belgium and Turkey
                         <li>I love designs! Design > Content
-                        <li>Aside from development & design, my hobby swimming.
-                        <li>My favourite meal is pasta.
-                        <li>Trap music!
+                        <li>Aside from development & design, my hobby is swimming
+                        <li>My favourite meal is pasta
+                        <li>And I love trap music!
                     </ul>
 
                     <blockquote>
@@ -135,10 +135,20 @@
             <div class="container">
                 <section id="contact">
                     <h2>Contact me</h2>
-                    <p>
+                    
+                    <form class="form" id="form1">
+
+                        <label for="name">Name</label>
+                        <input name="name" type="text" class="" placeholder="Name" id="name" />
+
+                        <label for="name">Email</label>
+                        <input name="email" type="text" class="" id="email" placeholder="Email" />
+
+                        <label for="name">Message</label>
+                        <textarea name="text" class="" id="comment" placeholder="Message"></textarea>
                             
-                    </p>
-                    <img class="u-c" src="underconstruction.png">
+                        <input type="submit" value="send" id="submit"/>
+                    </form>
                 </section>
             </div>
         </div>

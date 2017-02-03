@@ -1,0 +1,36 @@
+form {
+    margin: 0 auto;
+}
+input,
+textarea,
+label {
+    width: 90%;
+    padding: 5px 10px;
+    margin: 10px 5%;
+    font-size: 1.5em;
+    outline: none;
+}
+input {
+    border: 2px solid $gold;
+    height: 4em;
+}
+input[type="submit"] {
+    background-color: $gold;
+    color: $white;
+    font-weight: 900;
+}
+input[type="submit"]:hover {
+    background-color: $white;
+    color: $gold;
+}
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+}
+textarea {
+    border: 2px solid $gold;
+    height: 9em;
+}
+label {
+    height: 1em;
+}

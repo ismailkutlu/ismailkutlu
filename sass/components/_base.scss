@@ -4,6 +4,9 @@ body {
     font: 1em/2em 'Lato', Helvetica, Arial, sans-serif;
     overflow-x: hidden;    
 }
+*:hover {
+    transition: all 386ms ease-in-out;
+}
 p {
     font-size: 1.5em;
     font-weight: 300;

@@ -53,6 +53,9 @@
         top: 102px;
         right: -10px;
     }
+    form {
+        width: 90%;
+    }
 }
 @media only screen and (min-device-width: 768px) {
     #index h1 {
@@ -122,6 +125,9 @@
     blockquote::after {        
         top: 175px;
         right: -18px;
+    }
+    form {
+        width: 50%;
     }
 }
 @media only screen and (min-width: 1024px) {
