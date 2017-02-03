@@ -165,15 +165,10 @@ footer {
     padding: 10px 0;
 }
 
-.container img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 250px;
-}
-
 footer a {
     color: $gold;
     font-size: 2em;
+}
+footer .counter {
+    // float: left;
 }
