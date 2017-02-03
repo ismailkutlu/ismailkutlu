@@ -136,7 +136,7 @@
                 <section id="contact">
                     <h2>Contact me</h2>
                     
-                    <!--<form action="" method="post" class="form" id="form1">
+                    <form action="index.php" method="post" class="form" id="form1">
 
                         <label for="name">Name</label>
                         <input name="name" type="text" class="" placeholder="Name" id="name" />
@@ -148,22 +148,7 @@
                         <textarea name="text" class="" id="comment" placeholder="Message"></textarea>
                             
                         <input type="submit" value="send" id="submit"/>
-                    </form>-->
-                    <div class="contact">
-                        <a href="mailto:ismail.kutlu94@gmail.com?Subject=Hello" target="_top">
-                            <i class="fa fa-4x fa-envelope" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="contact">
-                        <a href="facebook.com/ismail94kutlu" target="_top">
-                            <i class="fa fa-4x fa-facebook" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="contact">
-                        <a href="https://plus.google.com/u/0/110551233844943465815" target="_top">
-                            <i class="fa fa-4x fa-google-plus" aria-hidden="true"></i>
-                        </a>
-                    </div>
+                    </form>
                 </section>
             </div>
         </div>

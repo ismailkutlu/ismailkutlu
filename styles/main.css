@@ -383,41 +383,25 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar {
   background-color: lightgoldenrodyellow; }
 
-form {
-  margin: 0 auto; }
+div.section:nth-of-type(4) {
+  background-image: url("../styles/img/contact.jpg");
+  background-color: #F5F5F5;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  height: 50vh !important; }
 
-input,
-textarea,
-label {
-  width: 90%;
-  padding: 5px 10px;
-  margin: 10px 5%;
-  font-size: 1.5em;
-  outline: none; }
-
-input {
-  border: 2px solid #daa520;
-  height: 4em; }
-
-input[type="submit"] {
-  background-color: #daa520;
+.contact i {
   color: #FFF;
-  font-weight: 900; }
+  text-align: center;
+  width: 33%;
+  margin: 8vh 0;
+  padding: 0;
+  float: left;
+  opacity: 0; }
 
-input[type="submit"]:hover {
-  background-color: #FFF;
+.contact i:hover {
   color: #daa520; }
-
-input:focus,
-textarea:focus {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); }
-
-textarea {
-  border: 2px solid #daa520;
-  height: 9em; }
-
-label {
-  height: 1em; }
 
 @media only screen and (min-width: 320px) {
   #skills span {

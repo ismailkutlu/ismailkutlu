@@ -121,6 +121,7 @@ $(document).ready(function() {
     
     var $skills = $('#skills h2');
     var $about = $('#about h2');
+    var $contact = $('#contact h2');
 
     $skills.waypoint(function () {
         $('.skill-wrap').css({
@@ -145,6 +146,13 @@ $(document).ready(function() {
             "opacity": 1
         })
         $('#about p, #about ul, #about blockquote').animate({
+            "opacity": 1
+        }, 1000)
+        this.destroy();
+    }, { offset: "50%"})
+
+    $contact.waypoint(function () {
+        $('#contact i').animate({
             "opacity": 1
         }, 1000)
         this.destroy();
