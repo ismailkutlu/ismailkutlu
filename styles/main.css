@@ -490,7 +490,7 @@ div.section:nth-of-type(4) {
     top: 5vh; }
   #index h2 {
     top: 60vh;
-    font-weight: 100; }
+    font-weight: 200; }
   .rect {
     width: 70%;
     left: 15%; }
@@ -498,7 +498,7 @@ div.section:nth-of-type(4) {
   #skills h2,
   #contact h2 {
     font-size: 5em;
-    font-weight: 100; }
+    font-weight: 200; }
   #about h3 {
     font-size: 3em;
     width: 70%; }
