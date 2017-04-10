@@ -1,39 +1,3 @@
-// form {
-//     margin: 0 auto;
-// }
-// input,
-// textarea,
-// label {
-//     width: 90%;
-//     padding: 5px 10px;
-//     margin: 10px 5%;
-//     font-size: 1.5em;
-//     outline: none;
-// }
-// input {
-//     border: 2px solid $gold;
-//     height: 4em;
-// }
-// input[type="submit"] {
-//     background-color: $gold;
-//     color: $white;
-//     font-weight: 900;
-// }
-// input[type="submit"]:hover {
-//     background-color: $white;
-//     color: $gold;
-// }
-// input:focus,
-// textarea:focus {
-//     box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
-// }
-// textarea {
-//     border: 2px solid $gold;
-//     height: 9em;
-// }
-// label {
-//     height: 1em;
-// }
 div.section:nth-of-type(4) {
     background-image: url('../styles/img/contact.jpg');
     background-color: $lightgray;
@@ -45,7 +9,7 @@ div.section:nth-of-type(4) {
 .contact i {
     color: $white;
     text-align: center;
-    width: 33%;
+    width: 25%;
     margin: 8vh 0;
     padding: 0;
     float: left;

@@ -34,7 +34,6 @@ $(document).ready(function() {
                             "box-shadow": "0px 0px 4px 4px rgba(0, 0, 0, 0.15)"
             })
             $('nav ul a li').css({"color": "#000"})
-            $('nav ul a li:hover').css({})
             $(  '.hamburger-icon:hover .icon-1',
                 '.hamburger-icon:hover .icon-2',
                 '.hamburger-icon:hover .icon-3').css({
@@ -71,9 +70,9 @@ $(document).ready(function() {
     });
     //Fadeoutscrolling
     $(window).scroll(function(){
-        $(".home h1").css("opacity", 1 - $(window).scrollTop() / 400);
-        $(".home h2").css("opacity", 1 - $(window).scrollTop() / 400);
-        $(".home .rect").css("opacity", 1 - $(window).scrollTop() / 400);
+        $(".home h1").css("opacity", 1 - $(window).scrollTop() / 700);
+        $(".home h2").css("opacity", 1 - $(window).scrollTop() / 700);
+        $(".home .rect").css("opacity", 1 - $(window).scrollTop() / 700);
     });
 
     //HUMBURGER
@@ -82,7 +81,6 @@ $(document).ready(function() {
     var icon2 = document.getElementById("b");
     var icon3 = document.getElementById("c");
     var nav = document.getElementById('nav__list');
-    // var nav = document.getElementById('nav');
     var blue = document.getElementById("blue");
 
     icon.addEventListener('click', function() {
@@ -150,7 +148,6 @@ $(document).ready(function() {
         $('em').delay(1000).animate({
             opacity: 1,
         }, { duration: 2000})
-        // waypoint.disable();
         this.destroy();
         
     }, { offset: "50%"});

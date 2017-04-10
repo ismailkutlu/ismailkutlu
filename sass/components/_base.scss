@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,900');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,900');
 
 body {
     font: 1em/2em 'Lato', Helvetica, Arial, sans-serif;
@@ -30,7 +30,7 @@ h2 {
 #contact h2 {
     padding-top: 55px;
     font-size: 5em;
-    font-weight: 100;
+    font-weight: 200;
 }
 div.section:nth-of-type(even) {
     background-color: $lightgray;
@@ -54,16 +54,24 @@ nav {
     height: 50px;
     width: 100%;
     z-index: 32;
-}
-nav .logo {
-    position: absolute;
-    margin: 15px 0 15px 40%;
-    font-size: 3em;
-    opacity: 0;
+    .logo {
+        position: absolute;
+        margin: 15px 0 15px calc(50% - 70px);
+        font-size: 3em;
+        opacity: 0;
+    }
+    img {
+        top: 3px;
+        height: 44px;
+        position: absolute;
+    }
 }
 span.black {
     font-weight: 900;
     color: $gold;
+}
+span.light {
+    font-weight: 300;
 }
 nav ul {
     position: absolute;
@@ -134,7 +142,7 @@ nav ul a:hover {
 /*scroll-down*/
 .scroll-down {
 	position: absolute;
-	left: 50%;
+	left: calc(50% - 25px);
 	bottom: 8vh;
 	display: block;
 	text-align: center;
@@ -151,6 +159,11 @@ nav ul a:hover {
 	-moz-animation: fadeMoveDown 2s ease-in-out infinite;
 	animation: fadeMoveDown 2s ease-in-out infinite;
     z-index: 22;
+    padding: 25px;
+}
+.scroll-down:nth-of-type(2) {
+    border-bottom: 2px solid #333;
+	border-right: 2px solid #333;
 }
 
 .u-c {

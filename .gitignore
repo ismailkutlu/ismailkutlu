@@ -2,3 +2,6 @@
 .bundle/
 .sass-cache/
 node_modules/
+sass/
+
+favicon.ai
