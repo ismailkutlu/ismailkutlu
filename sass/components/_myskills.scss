@@ -1,8 +1,12 @@
 .skill-wrap {
-    margin: 20px 2.5%;
+    margin: 20px 2.5% -30px 2.5%;
     float: left;
     width: 45%;
     opacity: 0;
+}
+.skill-wrap:nth-of-type(3) { 
+    width: 100%;
+    margin: 0 2.5%;
 }
 #skills span {
     top: -3em;
