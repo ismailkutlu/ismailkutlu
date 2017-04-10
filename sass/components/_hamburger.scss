@@ -4,7 +4,7 @@
     top: 50%;
     width: 32px;
     height: 2px;
-    // background-color: #FFF;
+    background-color: #EEE;
     transition: all 400ms cubic-bezier(.84,.06,.52,1.8);
 }
 
@@ -35,7 +35,7 @@
 .hamburger-icon:hover .icon-1,
 .hamburger-icon:hover .icon-2,
 .hamburger-icon:hover .icon-3 {
-    background-color: #090909;
+    background-color: #FFF;
 }
 
 .icon-1.a {

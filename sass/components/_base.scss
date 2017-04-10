@@ -72,6 +72,7 @@ span.black {
 }
 span.light {
     font-weight: 300;
+    color: $white;
 }
 nav ul {
     position: absolute;
@@ -79,7 +80,6 @@ nav ul {
     padding: 0;
     float: right;
     top: 15px;
-    /*right: -15px;*/
 }
 nav ul a {
     box-sizing: border-box;

@@ -25,24 +25,19 @@ $(document).ready(function() {
     $('.fa-sm').hide();   
     
     $(window).scroll(function() {    
-        if ($(this).scrollTop() >= screen.height/2) {
-            $('.icon-1, .icon-2, .icon-3').css({
-                "background-color": "#000"
-            })
+        if ($(this).scrollTop() >= screen.height/3) {
+
             $('.logo').fadeIn().css({"opacity": "1"})
-            $('nav').css({  "background-color": "rgba(255, 255, 255, 0.85)", 
-                            "box-shadow": "0px 0px 4px 4px rgba(0, 0, 0, 0.15)"
+            $('nav').css({  "background": "rgba(52, 52, 52, 0.85)", 
+                            "box-shadow": "0px 0px 2px 2px rgba(0, 0, 0, 0.15)"
             })
-            $('nav ul a li').css({"color": "#000"})
+            $('nav ul a li').css({"color": "#FFF"})
             $(  '.hamburger-icon:hover .icon-1',
                 '.hamburger-icon:hover .icon-2',
                 '.hamburger-icon:hover .icon-3').css({
                     "background-color": "#FFF"
             })
         } else {
-            $('.icon-1, .icon-2, .icon-3').css({
-                "background-color": "#FFF"
-            })
             $('.logo').fadeOut().css({"opacity": "0"});
             $('nav').css({  "background-color": "transparent", 
                             "box-shadow": "0px 0px 4px 4px rgba(0, 0, 0, 0)"
