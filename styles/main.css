@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,900");
 body {
-  font: 1em/2em 'Lato', Helvetica, Arial, sans-serif;
+  font: 1em/2em 'Source Sans Pro', Helvetica, Arial, sans-serif;
   overflow-x: hidden; }
 
 *:hover {
@@ -327,6 +327,7 @@ ul#facts {
   margin: 0 auto;
   padding: 0;
   text-align: center;
+  font-weight: 200;
   opacity: 0; }
 
 blockquote {
@@ -507,7 +508,7 @@ div.section:nth-of-type(4) {
     font-size: 1.5em; }
   #about ul {
     width: 70%;
-    font-size: 1.5em !important; }
+    font-size: 1.6em !important; }
   blockquote {
     font-size: 2em !important;
     line-height: 3em !important;
