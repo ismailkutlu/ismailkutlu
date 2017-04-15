@@ -392,7 +392,7 @@ progress::-webkit-progress-value {
   background-color: #e4bb54; }
 
 progress::-moz-progress-bar {
-  background-color: lightgoldenrodyellow; }
+  background-color: #e4bb54; }
 
 div.section:nth-of-type(4) {
   background-image: url("../styles/img/contact.jpg");
