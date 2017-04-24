@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;    
 }
 *:hover {
-    transition: all 386ms ease-in-out;
+    transition: $transition;
 }
 p {
     font-size: 1.5em;

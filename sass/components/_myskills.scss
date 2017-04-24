@@ -10,14 +10,13 @@
 }
 #skills span {
     top: -3em;
-    left: 2%;
+    left: 10px;
     position: relative;
     line-height: 3em;
     color: $white;
     text-shadow: 0 0 5px rgba(0,0,0, 0.35);
     
     em {
-        font-size: 0.7em;
         opacity: 0;
     }
 }
